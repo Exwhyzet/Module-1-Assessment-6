@@ -1,0 +1,128 @@
+
+    /*----cart items -------*/
+.cart-page{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-color: black;
+    border-style:hidden;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 4pxs;
+    color: #fff;
+    background:black;
+    font-weight: 100;
+}
+th:hover{
+    background-color: #ff523b;
+}
+td{
+    padding: :10px 5px;
+}
+    td input{
+        width: 40px;
+        height:30px;
+        padding:5px;
+            
+    }
+td a{
+    color: dimgrey;
+    font-size:12px;
+}
+td img{
+        width:150px;
+        height:150px;
+            margin-right:10px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 350px;
+}
+td:last-child{
+    text-align: right;
+}
+td:last-child{
+    text-align: right;
+}
+.cart-info p{
+    display: flex;
+}
+h1{
+    color: goldenrod;
+    text-align: center;
+    font-display: auto;
+    font-family: sans-serif;
+    background-color: black;
+}
+h1:hover{
+    color: ghostwhite;
+    background-color: #FF523B;
+    text-align: center;
+}
+h3{
+    font-family:serif;
+    color: floralwhite;
+    background-color:black;
+    text-align:start;
+    width: 100%;
+    padding-top:20px; 
+    padding-bottom: 20px;
+
+}
+h2{
+    color: dimgrey;
+    background-color: azure;
+    text-align: center;
+}
+a{
+    font-family: helvetica, sans-serif;
+    padding: 5px;
+    font-size: 100%;
+    text-decoration-line: none;
+    color: black;
+    background-blend-mode: luminosity;
+}
+a:hover{
+    
+    color: goldenrod;
+    outline-color:darkgrey;
+}
+#manue{
+    background-color: black;
+    padding-top: 12px;
+    width: 100%;
+    height: 40px;
+    color: azure;
+}
+#manue a{
+    color: azure;
+    font-family:  sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration-line: none;
+}
+#manue a:hover{
+    color: darkgray;
+}
+#manue:hover{
+    background-color: #ff523b;
+    color: azure;
+}
+manue input{
+    color: aqua;
+    font-family:helvetica sans-serif;
+}
